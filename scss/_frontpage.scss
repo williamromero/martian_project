@@ -33,13 +33,23 @@ body {
       padding: 0;
 
       .mp-nav-item {
+        align-items: center;
+        display: flex;
         color: $white;
-        font-family: $obelix;
+        font-family: "ObelixPro", sans-serif;
         padding: 10px;
-        margin: 1em auto;
+        margin: .8em auto;
+      }
 
-        &:nth-child(4) {
-          display: none;
+      .mp-nav-item-logo {
+        display: none;
+      }
+
+      .mp-nav-item-logo-able {
+        display: block;
+
+        img {
+          width: 150px;
         }
       }
     }
@@ -47,7 +57,11 @@ body {
 
   .mp-principal-header-scrolled {
     background: #f6911e;
-    box-shadow: inset 0px -5px 0px rgba(0,0,0,0.2);    
+    display: flex;
+    position: fixed;
+    box-shadow: inset 0px -5px 0px rgba(0,0,0,0.2);   
+    transition: ease .4s;
+    z-index: 100;
   }
 
   .mp-space-backspace {
@@ -73,7 +87,7 @@ body {
       height: 550px;
       margin: 0em auto;
       width: 100%;
-      z-index: 133;
+      z-index: 10;
       position: relative;
       top: 35%;
 
