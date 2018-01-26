@@ -5,7 +5,7 @@ $(document).ready(function() {
   
   if (window) {
     window.addEventListener('scroll', function () {
-      if (window.pageYOffset >= 200) {
+      if (window.pageYOffset >= 300) {
         header.classList.add('mp-principal-header-scrolled');
         list_logo_item.classList.add('mp-nav-item-logo-able');
       }
@@ -15,6 +15,7 @@ $(document).ready(function() {
       if (window.pageYOffset == 0) {
         header.classList.remove('mp-principal-header-scrolled');
         list_logo_item.classList.remove('mp-nav-item-logo-able');
+        // list_item.classList.add('')
       }
     });
 

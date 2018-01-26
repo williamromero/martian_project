@@ -1,0 +1,197 @@
+@media only screen and (max-width: $small-window) {
+
+  .mp-full-container {
+
+    .mp-principal-header {
+      background: #f6911e;
+
+      .mp-principal-header-nav {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+
+        .mp-nav-item-logo {
+          display: none;
+        }
+
+        .mp-nav-item-logo-able {
+          display: none;
+        }
+
+        .mp-nav-item-responsive {
+          display: block;
+          margin: 1em auto;
+          
+          img {
+            width: 150px;
+          }        
+        }
+
+        .mp-nav-item {
+          display: none;
+          justify-content: center;
+        }
+      }
+    }
+
+    .mp-principal-block {
+      height: auto;
+
+      .mp-rounded-block {
+        margin-left: -20px;
+        margin-top: -200px;
+        
+        .mp-main-logo {
+          top: -10em;
+          width: 300px;
+        }
+      }
+
+      .mp-rounded-block-bottom {
+        margin-left: -20px;
+        margin-top: -220px;        
+      }
+
+      .mpp-block-container {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .mpp-block-container-txt {
+        padding: 0 3em;
+      }
+
+      .mpp-block-container-strong-link {
+        width: 100%;
+      }
+    }
+
+    .mp-space-backspace {
+      height: 450px;
+    }
+
+    .mp-space-backspace-two {
+      height: 700px;
+
+      .mp-pictures-container {
+        top: 22.5%;
+
+        .mp-pictures-container-block {
+          flex-wrap: wrap;
+
+          .mp-pictures-container-block-items {
+            margin: 1em auto;
+          }
+        }
+      }
+    }
+
+    .mp-videos-container {
+      height: 425px;
+      .mp-videos-container-block {
+        .mp-videos-container-element {
+          height: 200px;
+          width: 90%;
+        }
+      }
+
+      .mp-spaceship-icon {
+        height: 150px;
+        width: 150px;
+      }
+    }
+
+    .mp-events-container {
+      height: 700px;
+      margin: 0em auto;
+
+      .mp-events-container-block {
+        top: -2em;
+
+        .mp-events-block-content {
+          height: 280px;
+          width: 50%;
+        }
+      }
+
+      .mp-events-btn-action {
+        bottom: 1em;
+
+        .mpp-block-container-strong-link {
+          margin: .5em auto;
+          width: 90%;
+        }
+      }
+
+      .mp-events-container-wave-up {
+        top: -1.3em;
+      }
+
+      .mp-events-container-wave-down {
+        bottom: -1.4em;
+      }
+
+      .mp-events-element-star {
+        bottom: -4.5em;
+        height: 100px;
+        width: 100px;
+      }
+    }
+
+    .mp-club-container {
+      .mp-club-container-block {
+        padding: 0 1em;
+
+        .mpp-block-container-strong-link {
+          margin: 0.5em auto;
+          width: 100%;
+        }
+      }
+    }
+
+    .mp-souvenirs-container {
+      height: auto;
+
+      .mp-events-container-wave-up {
+        top: -1.3em;
+      }
+    }
+
+    .mp-contact-container {
+      height: auto;
+
+      .mp-contact-asteroid-icon {
+        height: 120px;
+        right: 1.5em;
+        top: -2.5em;
+        width: 130px;
+      }
+
+      .mp-contact-container-block {
+        margin: 1em auto;
+
+        h1 {
+          font-size: 1.5em;
+          margin-top: 1em;
+        }
+      }
+
+    }
+
+    .mp-contact-info-container-content {
+        display: block;
+        height: auto;
+
+        .mp-contact-info-container-block {
+          display: block;
+          margin: 2em auto;
+        }
+    }
+  }
+}
+
+@media only screen and (max-width: $landscape-small-window) {
+}
+
+@media only screen and (max-width: $tablet-window) {
+}

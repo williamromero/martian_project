@@ -36,7 +36,7 @@ body {
         align-items: center;
         display: flex;
         color: $white;
-        font-family: "ObelixPro", sans-serif;
+        font-family: $obelix;
         padding: 10px;
         margin: .8em auto;
       }
@@ -51,6 +51,14 @@ body {
         img {
           width: 150px;
         }
+      }
+
+      .mp-nav-item-responsive {
+        display: none;
+        
+        img {
+          width: 150px;
+        }        
       }
     }
   }
@@ -131,7 +139,6 @@ body {
       }
     }
   }
-
 
   .mp-principal-block {
     display: block;
@@ -355,6 +362,8 @@ body {
       padding: 0;
       
       .mp-souvenirs-block-content {
+        height: 280px;
+        margin-top: 1.5em;
 
         .mp-souvenirs-container-block-items {
           border-radius: 40%;
