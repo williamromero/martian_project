@@ -3,7 +3,7 @@ body {
   display: block;
   float: none;
   font-family: $raleway !important;
-  height: auto;
+  height: 100vw;
   margin: 0 auto;
   padding: 0;
   width: 100%;
@@ -19,6 +19,8 @@ body {
   width: 100%;
 
   .mp-principal-header {
+    // background: -webkit-linear-gradient(top, #00000059 25%, #0000 95%);
+    background: linear-gradient(180deg, $gray-thirty, $gray-transparent);
     display: flex;
     margin: 0 auto;
     padding: 0;
@@ -44,6 +46,7 @@ body {
           font-family: $obelix;
           padding: 10px;
           margin: .8em auto;
+          text-shadow: 0px 3px 6px rgba(0,0,0,.3);
         }
       }
 
@@ -722,6 +725,62 @@ body {
       width: 180px;      
     }
 
+  }
+
+  .mp-blank-space {
+    background-color: #f2e9e2;
+    height: 150px;
+    // margin: 2em auto;
+    width: 100%;
+  }
+
+  .mp-principal-sourvenirs-container {
+    align-self: center;
+    background-color: #f2e9e2;
+    display: flex;
+    height: 500px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    padding: 0;
+    width: 100%;
+
+    .mp-principal-sourvenirs-container-block {
+      align-self: center;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      max-width: 968px;
+      padding: 0;
+
+      .mp-principal-sourvenirs-container-block-image {
+        display: block;
+        justify-content: center;
+        overflow: hidden;
+        padding: 1em;
+        
+        img {
+          border: 1em solid #fff;
+          display: flex;
+          height: 310px;
+          justify-self: center;
+          margin: 0 auto;
+          width: 90%;
+        }
+      }
+
+      .mp-principal-sourvenirs-container-block-txt {
+        h2 {
+          color: $gray;
+          font-weight: bold;
+          margin-bottom: 1em;
+        }
+
+        p {
+          color: $gray;
+          text-align: justify;
+        }
+      }
+    }  
   }
 
 }
