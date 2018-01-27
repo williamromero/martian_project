@@ -4,9 +4,10 @@
 
     .mp-principal-header {
       background: #f6911e;
+      display: block;
 
       .mp-principal-header-nav {
-        display: block;
+        display: none;
         margin: 0 auto;
         padding: 0;
 
@@ -18,20 +19,38 @@
           display: none;
         }
 
-        .mp-nav-item-responsive {
-          display: block;
-          margin: 1em auto;
-          
-          img {
-            width: 150px;
-          }        
-        }
-
         .mp-nav-item {
-          display: none;
+          display: block;
           justify-content: center;
+          text-align: center;
         }
       }
+
+      .mp-principal-header-nav-open {
+        display: block;
+      }
+
+      .mp-menu-responsive-btn {
+        color: #fff;
+        display: block;
+        font-size: 1.75em;
+        position: absolute;
+        right: 1em;
+        top: 0.8em;
+      }
+
+      .mp-nav-item-responsive {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        
+        img {
+          height: 90px;
+          width: 150px;
+        }        
+      }
+
     }
 
     .mp-principal-block {
@@ -95,8 +114,9 @@
         }
       }
 
-      .mp-spaceship-icon {
+      .mp-satelite-icon {
         height: 150px;
+        right: 1em;
         width: 150px;
       }
     }
@@ -193,5 +213,67 @@
 @media only screen and (max-width: $landscape-small-window) {
 }
 
-@media only screen and (max-width: $tablet-window) {
+@media only screen and (min-width: $tablet-window) and (max-width: 1024px) {
+
+  .mp-full-container {
+
+    .mp-space-backspace {
+      height: 500px;
+    }
+
+    .mp-principal-block,
+    .mp-pictures-container,
+    .mp-events-container,
+    .mp-club-container {
+      .mpp-block-container-txt {
+        .mpp-block-container-strong-link {
+          margin: .5em auto;
+          width: 70%;
+        }
+      }
+    }
+
+    .mp-events-container {
+      height: 680px;
+      .mp-events-container-block {
+        display: flex;
+        justify-content: center;
+        margin: 2em auto;
+
+        .mp-events-block-content {
+          height: 280px;
+          max-width: 35%;;
+        }
+      }
+
+      .mp-events-btn-action {
+        bottom: -0.8em;
+      }
+
+      .mp-events-container-wave-up {
+        top: -2.5em;
+      }
+
+      .mp-events-container-wave-down {
+        bottom: -2.5em;
+      }
+    }
+
+    .mp-souvenirs-container {
+      height: 650px;
+      
+      .mp-events-container-wave-up {
+        top: -2.5em;
+      }
+
+      .mp-souvenirs-container-block {
+        justify-content: center;
+        
+        .mp-souvenirs-block-content {
+          max-width: 35%;
+        }
+      }
+    }
+
+  }
 }

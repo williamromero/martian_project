@@ -12,35 +12,38 @@
   </head>
   <body>
 
-    <div class="mp-full-container col-xs-12 col-md-12">
+    <di class="mp-full-container col-xs-12 col-md-12">
       
       <div class="row">
         <nav class="mp-principal-header col-xs-12 col-md-12">
+          <span class="mp-nav-item-responsive">
+            <img src="imgs/logo_two.svg" />
+          </span>
           <ul class="mp-principal-header-nav">
-            <li class="mp-nav-item-responsive">
-              <img src="imgs/logo_two.svg" />
-            </li>
-            <li class="mp-nav-item">NOSOTROS</li>
-            <li class="mp-nav-item">FOTOS</li>
-            <li class="mp-nav-item">VIDEOS</li>
-            <li class="mp-nav-item mp-nav-item-logo">
-              <img src="imgs/logo_two.svg" />
-            </li>
-            <li class="mp-nav-item">EVENTOS</li>
-            <li class="mp-nav-item">CLUB</li>
-            <li class="mp-nav-item">CONTACTO</li>            
+            <a class="link-item" href="#nosotros"><li class="mp-nav-item">NOSOTROS</li></a>
+            <a class="link-item" href="#fotos"><li class="mp-nav-item">FOTOS</li></a>
+            <a class="link-item" href="#videos"><li class="mp-nav-item">VIDEOS</li></a>
+            <a class="link-item" href="#top">
+              <li class="mp-nav-item-logo">
+                <img src="imgs/logo_two.svg" />
+              </li>
+            </a>
+            <a class="link-item" href="#eventos"><li class="mp-nav-item">EVENTOS</li></a>
+            <a class="link-item" href="#club"><li class="mp-nav-item">CLUB</li></a>
+            <a class="link-item" href="#contacto"><li class="mp-nav-item">CONTACTO</li></a>           
           </ul>
+          <span class="mp-menu-responsive-btn">&#9776;</span>
         </nav>
       </div>
 
       <div class="row">
-        <div class="mp-space-backspace col-xs-12 col-md-12">
+        <div id="top" class="mp-space-backspace col-xs-12 col-md-12">
           <img class="mp-space-backspace-img" src="imgs/blue_background_01.png">
         </div>
       </div>
 
       <div class="row">
-        <div class="mp-principal-block col-xs-12 col-md-12">
+        <div id="nosotros" class="mp-principal-block col-xs-12 col-md-12">
           
           <div class="row">
             <div class="mp-rounded-block">
@@ -93,7 +96,7 @@
       <div class="row">
         <div class="mp-space-backspace mp-space-backspace-two col-xs-12 col-md-12">
           <img class="mp-space-backspace-img" src="imgs/blue_background_01.png">
-          <div class="mp-pictures-container col-xs-12 col-md-12">
+          <div id="fotos" class="mp-pictures-container col-xs-12 col-md-12">
             <div class="mp-pictures-container-block col-xs-12 col-md-10">
               <div class="mp-pictures-container-block-items col-xs-12 col-md-3">
                 <img src="imgs/pictures-item-01.png" />
@@ -120,7 +123,7 @@
       </div>
 
       <div class="row">
-        <div class="mp-videos-container col-xs-12 col-md-12">
+        <div id="videos" class="mp-videos-container col-xs-12 col-md-12">
           <div class="mp-satelite-icon">
             <img src="imgs/satelite.svg" />
           </div>
@@ -135,7 +138,7 @@
       </div>
 
       <div class="row">
-        <div class="mp-events-container col-xs-12 col-md-12">
+        <div id="eventos" class="mp-events-container col-xs-12 col-md-12">
           <svg class="mp-events-container-wave-up" viewBox="0 0 1940.41 115.56"><path d="M1940,32.56s-362.53,113-772,23c-528-116-1168,0-1168,0l-.41,64H1940Z" transform="translate(0.41 -4)" style="fill:#f2e9e2"/></svg>
           
           <div class="mp-events-container-block col-xs-12 col-md-10">
@@ -200,7 +203,7 @@
 
 
       <div class="row">
-        <div class="mp-club-container col-xs-12 col-md-12">
+        <div id="club" class="mp-club-container col-xs-12 col-md-12">
           <div class="mpp-block-container-txt mp-club-container-block col-xs-12 col-md-5">
             <h1 class="mpp-block-container-title">THE MARTIAN PROJECT</h1>
             <span class="mpp-block-container-parragraph">
@@ -267,7 +270,7 @@
       </div>      
 
       <div class="row">
-        <div class="mp-contact-container col-xs-12 col-md-12">
+        <div id="contacto" class="mp-contact-container col-xs-12 col-md-12">
           <div class="mp-contact-asteroid-icon">
             <img src="imgs/gray_asteroid.svg">
           </div>
@@ -325,5 +328,7 @@
     <script src="js/app.js" type="text/javascript" charset="utf-8" async defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
   </body>
 </html>
