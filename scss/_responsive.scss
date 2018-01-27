@@ -207,6 +207,10 @@
           margin: 2em auto;
         }
     }
+
+    .mp-principal-sourvenirs-container {
+      height: auto;
+    }
   }
 }
 
@@ -274,6 +278,26 @@
         }
       }
     }
+
+    .mp-principal-sourvenirs-container {
+      height: auto;
+
+      .mp-principal-sourvenirs-container-block {
+        display: block;
+
+        .mp-principal-sourvenirs-container-block-image {
+          max-width: 100%;
+
+          img {
+            width: auto;
+          }
+        }
+
+        .mp-principal-sourvenirs-container-block-txt {
+          max-width: 100%;
+        }
+      }
+    }    
 
   }
 }

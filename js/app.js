@@ -5,6 +5,11 @@ $(document).ready(function() {
   var list_item = document.querySelector('.mp-nav-item');
   var header_nav = document.querySelector('.mp-principal-header-nav');
   
+  // if (window.location.pathname !== '/index.html') {
+  //   header.classList.add('mp-principal-header-scrolled');
+  //   list_logo_item.classList.add('mp-nav-item-logo-able');
+  // }
+
   if (window) {
     window.addEventListener('scroll', function () {
       if (window.pageYOffset >= 300) {

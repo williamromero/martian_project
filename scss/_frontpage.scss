@@ -617,6 +617,17 @@ body {
           color: $white;
           font-size: .8em;
         }
+
+        a {
+          text-decoration: none;
+
+          svg {
+            color: $white;
+            height: 30px;
+            margin-right: 1em;
+            width: 30px;
+          }
+        }
       }
     }
   }
